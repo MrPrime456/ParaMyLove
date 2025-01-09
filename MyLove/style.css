@@ -1,0 +1,66 @@
+/* reset css */
+
+* {
+    min-width: 0;
+    font: inherit;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  img,
+  video,
+  svg {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100dvh;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Styles */
+
+  body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 92, 245);
+  }
+  .conteiner .options {
+    display: flex;
+    gap: 80px;
+    text-align: center;
+  }
+  .options a {
+    text-decoration: none;
+    color: black;
+    background: rgb(153, 65, 235);
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, .1);
+    align-items: center;
+
+  }
+  .conteiner h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
